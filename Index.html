@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- Conjunto de ícones (font icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Link da font-awesome para adicionar ícones na página -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> <!-- Swiper: biblioteca JavaScript usada para criar sliders ou carrosséis em sites onde pode ser estilizado com CSS -->
+</head>
+<body>
+    <header class="header"> <!-- Cabeçalho Do Site -->
+        <a href="#home" class="logo"><span>Portfólio</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <nav class="navbar"> <!-- Seção de Navegação Dentro Da Página -->
+            <a href="#home" class="active">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#project">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Menu do Portfólio - Grupo de Tópicos -->
+    <section class="home" id="home"> <!-- Landing Page: Ínicio da Página Principal -->
+        <div class="home-content">
+            <h1>Olá, eu sou <span>Lucas</span></h1>
+            <h3 class="text-animation"> Desenvolvedor <span></span></h3>
+            <p>Sou um desenvolvedor com experiência em HTML, CSS, Python e Javascript. Trabalho principalmente com front-end, 
+                mas também tenho conhecimento em back-end e estou aprendendo frameworks como ReactJS.</p>
+        
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/lucas-de-oliveira-fernandes/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/lucas-0liveira" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a id="CV" class="btn" target="_blank"><i class="fa-solid fa-download fa-sm"></i> Baixar CV </a>
+                <a href="#contact"
+                class="btn">Contato</a>
+            </div>
+        </div>
+
+            <div class="home-img">
+                <img src="/Imagens/Perfil.jpeg" alt="Foto de Perfil">
+            </div>
+
+    </section>
+
+    <section class="about" id="about"> <!-- Landing Page: Sobre Mim -->
+
+        <div class="about-img">
+            <img src="/Imagens/Perfil 2.jpeg" alt="Foto de Perfil">
+        </div>
+
+        <div class="about-text">
+            <h2>Sobre <span>Mim</span></h2>
+
+            <p>Sou Lucas, estou sempre em busca de novos conhecimentos e desafios que me permitam expandir minhas habilidades e 
+               competências. Minha jornada profissional tem sido marcada por uma constante busca por aprimoramento, o que me capacita
+               a enfrentar os desafios do mundo digital com uma abordagem criativa e determinada. Acredito firmemente que minha 
+               experiência diversificada, combinada com uma profunda paixão pela tecnologia, me proporciona uma base sólida para 
+               enfrentar e superar desafios complexos. Estou preparado para oferecer soluções inovadoras que contribuem de maneira 
+               significativa para o sucesso dos projetos em que me envolvo. Estou animado com as vastas possibilidades que o futuro 
+               reserva e motivado para colaborar em projetos que não apenas atendem às necessidades atuais, mas também inspiram e 
+               moldam o futuro. Meu entusiasmo por novas oportunidades é impulsionado pela crença de que cada desafio é uma chance 
+               para crescer e estou ansioso para me envolver em iniciativas que buscam transformar ideias em realidade.</p>
+        </div>
+
+    </section>
+
+    <section class="skills" id="skills"> <!-- Landing Page: Habilidades -->
+        <!-- Primeiro Container: Habilidades -->
+        <div class="container1">
+            <h1 class="heading1">Habilidades Técnicas</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color:#E85326" class="fa-brands fa-html5"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#2652E8" class="fa-brands fa-css3"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#eaff00" class="bx bxl-javascript"></i>
+                    <div class="info">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="fa-brands fa-python" style="color: #6ba1ff;"></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                </div>
+            </div>
+        </div>       
+        <!-- Segundo Container: Professional Skills -->
+        <div class="container1">
+            <h1 class="heading1">Habilidades Profissionais</h1>
+            <div class="radial-bars">
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text"> Criatividade</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">72%</div>
+                    <div class="text">Comunicação</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">78%</div>
+                    <div class="text">Flexibilidade</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">87%</div>
+                    <div class="text">Trabalho em Equipe</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="project"> <!-- Landing Page: Projetos Desenvolvidos -->
+        <div class="container2 swiper">
+            <h1 class="heading2">PROJETOS DESENVOLVIDOS</h1>
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide"><!--Mudar o texto, imagem ou adicionar em cada projeto feito no Portfólio-->
+                        <a href="https://contador-de-exame.netlify.app" target="_blank" class="card-link">
+                            <img src="/Imagens/Contador de Exames.jpeg" alt="card image" class="card-image">
+                            <p class="badge Exame">Contador para Exame</p>
+                            <h2 class="card-title">Este projeto é uma aplicação web desenvolvida com HTML, CSS e JavaScript, que permite 
+                                o controle de exames médicos, como raio-X, mamografia e tomografia. O usuário pode selecionar o tipo de exame 
+                                e clicar em "Incrementar" para registrar cada procedimento realizado. A aplicação também oferece a opção de gerar um 
+                                relatório em PDF com o total de exames incrementados por tipo, assim como o total mensal acumulado, 
+                                facilitando o monitoramento e a impressão de registros médicos.</h2>
+                                <button class="card-button fa-solid fa-arrow-right-long"></button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide"><!--Mudar o texto, imagem ou adicionar em cada projeto feito no Portfólio-->
+                        <a href="https://play-musica.netlify.app" target="_blank" class="card-link">
+                            <img src="/Imagens/Play Music.jpeg" alt="card image" class="card-image">
+                            <p class="badge Music">Play Music</p>
+                            <h2 class="card-title">Este projeto é um reprodutor de música personalizado, desenvolvido com JavaScript, HTML e CSS. 
+                                A aplicação permite ao usuário ouvir músicas, favoritar suas músicas, alternar entre faixas e reproduzir 
+                                músicas de forma aleatória.</h2>
+                                <button class="card-button fa-solid fa-arrow-right-long"></button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide"><!--Mudar o texto, imagem ou adicionar em cada projeto feito no Portfólio-->
+                        <a href="https://cardapio-lanches.netlify.app" target="_blank" class="card-link">
+                            <img src="/Imagens/Cardapio Lanches.jpeg" alt="card image" class="card-image">
+                            <p class="badge Lanches">Cardápio Lanches</p>
+                            <h2 class="card-title">Este projeto foi criado para oferecer uma experiência de cardápio de                             lanches personalizável, permitindo filtrar opções rapidamente 
+                               através de funcionalidades avançadas em JavaScript (ForEach, Map,
+                               Reduce e Filter), HTML e CSS. Além disso, é possível alternar no site para modo claro e
+                               modo escuro.</h2>
+                                <button class="card-button fa-solid fa-arrow-right-long"></button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide"><!--Mudar o texto, imagem ou adicionar em cada projeto feito no Portfólio-->
+                        <a href="https://devs-sorteio.netlify.app" target="_blank" class="card-link">
+                            <img src="/Imagens/DevSorteio.jpeg" alt="card image" class="card-image">
+                            <p class="badge Sorteio">Dev Sorteio</p>
+                            <h2 class="card-title">O projeto permite ao usuário inserir os valores inicial e final do intervalo, e com um clique, um número 
+                                aleatório é gerado e exibido na tela. O design foi elaborado utilizando CSS para proporcionar uma interface amigável, enquanto a 
+                                lógica do sorteio e a interação foram implementadas em JavaScript.</h2>
+                                <button class="card-button fa-solid fa-arrow-right-long"></button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide"><!--Mudar o texto, imagem ou adicionar em cada projeto feito no Portfólio-->
+                        <a href="https://convertmoneyglobal.netlify.app" target="_blank" class="card-link">
+                            <img src="/Imagens/Convert Money.jpeg" alt="card image" class="card-image">
+                            <p class="badge Money">Convert Money</p>
+                            <h2 class="card-title">O projeto utiliza JavaScript para calcular as conversões, HTML para estruturar
+                               a interface e CSS para um design intuitivo e moderno. Além disso, você pode inserir o valor desejado
+                               na moeda atual, e o sistema calcula de forma automática o quanto ficará na moeda de destino. Uma 
+                               ferramenta prática, interativa e precisa para facilitar conversões monetárias
+                               </h2>
+                                <button class="card-button fa-solid fa-arrow-right-long"></button>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact"> <!-- Landing Page: Contato -->
+        <h2 class="heading3">Contate <span>Me</span></h2>
+        <form action=""> <!-- formulário -->
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Nome Completo"> <!--Campo de texto para o nome completo-->
+                    <input type="text" id="phone" placeholder="Número de Celular" required> <!--Campo de texto para preencher o Número de Celular-->
+                </div>
+                <div class="input-box">
+                    <input type="email" id="email" placeholder="Email" required> <!--Campo de texto para preencher o Email-->
+                    <span class="span-required">Digite um email válido</span>
+                </div>
+            </div>
+            <!--Campo de texto para preencher a Descrição da mensagem-->
+            <div class="input-group-2">
+                <div class="input-box-2">
+                    <input type="text" placeholder="Assunto"> <!--Campo de texto para preencher o Assunto-->
+                </div>
+                <textarea name="" id="" cols="30"
+                rows="10" placeholder="Descreva sua mensagem"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <!--Rodapé Do Site-->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/lucas-de-oliveira-fernandes/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/lucas-0liveira" target="_blank"><i class='bx bxl-github' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#about">Sobre mim</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contato</a>
+            </li>
+
+            <li>
+                <a href="#project">Projetos</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © Lucas de Oliveira Fernandes | All Rights Reserved
+        </p>
+        <div class="footer-version">
+            <h3>Versão 1.0.0</h3>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="Portfolio.js"></script>
+</body>
+</html>
