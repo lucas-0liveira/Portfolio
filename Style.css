@@ -612,27 +612,27 @@ section {
     border-radius: 50px;
 }
 
-.card-list .card-link .badge.Exame{/*Altera a cor do título de cada projeto feito*/
+.card-list .card-link .badge.Blue{/*Altera a cor do título de cada projeto feito*/
     color: #003cff;
     background: #d3daf8;
 }
 
-.card-list .card-link .badge.Music{
+.card-list .card-link .badge.Orange-Brown{
     color: #b25a2b;
     background: #ffe3d2;
 }
 
-.card-list .card-link .badge.Lanches{
+.card-list .card-link .badge.Green{
     color: #205c20;
     background: #d6f8d6;
 }
 
-.card-list .card-link .badge.Sorteio{
+.card-list .card-link .badge.Yellowish-Brown{
     color: #856404;
     background: #fff3cd;
 }
 
-.card-list .card-link .badge.Money{
+.card-list .card-link .badge.Magenta{
     color: #b22485;
     background: #f7dff5;
 }
