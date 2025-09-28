@@ -32,19 +32,19 @@ O objetivo é reunir em um só lugar minhas experiências, competências técnic
 
 ## 🖼️ Demonstração
 
-### ◻◼ Página Inicial
+### ◻ Página Inicial
 ![Página Inicial](./Imagens%20Readme/home.jpeg)
 
-### 🟢 Sobre Mim
+### ◻ Sobre Mim
 ![Sobre Mim](./Imagens%20Readme/sobre.jpeg)
 
-### 🟢 Habilidades
+### ◻ Habilidades
 ![Habilidades](./Imagens%20Readme/habilidades.jpeg)
 
-### 🟢 Projetos
+### ◻ Projetos
 ![Projetos](./Imagens%20Readme/projetos.jpeg)
 
-### 🟢 Contato
+### ◻ Contato
 ![Contato](./Imagens%20Readme/contato.jpeg)
 
 ---
