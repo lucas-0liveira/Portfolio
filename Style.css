@@ -74,10 +74,6 @@ span {
     visibility: visible; /* Torna o span visível */
 }
 
-.about-text p {
-    text-align: justify;
-}
-
 .navbar a{
     font-size: 1.8rem;
     color: var(--text-color);
@@ -125,6 +121,7 @@ section {
 }
 
 .home-content p {
+    text-align: justify;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8;
@@ -315,6 +312,7 @@ section {
 }
 
 .about-text p{
+    text-align: justify;
     color: white;
     font-size: 1.5rem;
     font-weight: 500;
