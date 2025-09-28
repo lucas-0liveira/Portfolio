@@ -893,8 +893,7 @@ section {
 
     /* Garante que a imagem ocupe 100% da largura da tela como na home */
     .about .about-img img {
-        width: 66vw; /* Mesmo valor de largura que a imagem da home */
-        height: 37vh; /* Mantém a proporção */
+        width: 100%; /* Mantém a proporção */
         max-width: 100%; /* Certifica que a imagem não ultrapasse a largura disponível */
         object-fit: cover; /* Cobre toda a área do contêiner */
         margin-bottom: 70px;
