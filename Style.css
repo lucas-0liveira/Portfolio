@@ -619,7 +619,7 @@ section {
 
 .card-list .card-link .badge.Orange-Brown{
     color: #b25a2b;
-    background: #ffe3d2;
+    background: #ffddc7;
 }
 
 .card-list .card-link .badge.Green{
@@ -635,6 +635,21 @@ section {
 .card-list .card-link .badge.Magenta{
     color: #b22485;
     background: #f7dff5;
+}
+
+.card-list .card-link .badge.Red{
+    color: #FF0000;
+    background: #ffb6b6;
+}
+
+.card-list .card-link .badge.Orange{
+    color: #ec9a02;
+    background: #fee9c2;
+}
+
+.card-list .card-link .badge.Ocean{
+    color: #01b7b7;
+    background: #62ffff;
 }
 
 .card-list .card-link .card-title{ /*Muda a cor da fonte do texto*/
