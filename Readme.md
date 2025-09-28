@@ -70,4 +70,4 @@ Se quiser trocar uma ideia ou conhecer mais sobre o meu trabalho:
 
 ---
 
-🔹 Desenvolvido com dedicação por **Lucas** 💻✨
+✅ Desenvolvido com dedicação por **Lucas** 💻✨
