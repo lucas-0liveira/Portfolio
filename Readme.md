@@ -32,7 +32,7 @@ O objetivo é reunir em um só lugar minhas experiências, competências técnic
 
 ## 🖼️ Demonstração
 
-### 🟢 Página Inicial
+### ⭕ Página Inicial
 ![Página Inicial](./Imagens%20Readme/home.jpeg)
 
 ### 🟢 Sobre Mim
