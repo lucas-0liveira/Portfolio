@@ -291,8 +291,9 @@ section {
 
 .about-img img {
     position: relative;
-        top: 3rem;
-        width: 30vw;
+        top: 2rem;
+        width: 34vw;
+        height: 65.8vh;
         border-radius: 50%;
         box-shadow: 0 0 25px var(--main-color);
         cursor: pointer;
@@ -880,8 +881,8 @@ section {
 
     /* Garante que a imagem ocupe 100% da largura da tela como na home */
     .about .about-img img {
-        width: 56vw; /* Mesmo valor de largura que a imagem da home */
-        height: auto; /* Mantém a proporção */
+        width: 66vw; /* Mesmo valor de largura que a imagem da home */
+        height: 37vh; /* Mantém a proporção */
         max-width: 100%; /* Certifica que a imagem não ultrapasse a largura disponível */
         object-fit: cover; /* Cobre toda a área do contêiner */
         margin-bottom: 70px;
